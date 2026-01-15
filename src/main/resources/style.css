@@ -1,0 +1,49 @@
+.root {
+    -fx-base: #282828;
+    -fx-background-color: #282828;
+    -fx-control-inner-background: #282828;
+    -fx-control-inner-background-alt: #32302f;
+    -fx-text-fill: #ebdbb2;
+    -fx-accent: #d79921; /* Gruvbox Yellow */
+    -fx-focus-color: #d65d0e; /* Gruvbox Orange */
+    -fx-faint-focus-color: transparent;
+}
+
+/* TreeView */
+.tree-view {
+    -fx-background-color: #1d2021;
+    -fx-border-color: #3c3836;
+}
+.tree-cell {
+    -fx-text-fill: #ebdbb2;
+    -fx-background-color: transparent;
+}
+.tree-cell:filled:selected {
+    -fx-background-color: #3c3836;
+    -fx-text-fill: #fabd2f;
+}
+
+/* SplitPane */
+.split-pane-divider {
+    -fx-background-color: #504945;
+}
+
+/* TextArea (Code View) */
+.text-area {
+    -fx-font-family: "Monospaced";
+    -fx-text-fill: #fbf1c7;
+    -fx-background-color: #1d2021;
+}
+.text-area .content {
+    -fx-background-color: #1d2021;
+}
+
+/* Audio Player Controls */
+.button {
+    -fx-background-color: #504945;
+    -fx-text-fill: #ebdbb2;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #665c54;
+}
